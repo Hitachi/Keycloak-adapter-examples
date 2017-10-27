@@ -1,0 +1,84 @@
+{
+    "realm": "sample",
+    "enabled": true,
+    "accessTokenLifespan": 60,
+    "accessCodeLifespan": 60,
+    "accessCodeLifespanUserAction": 300,
+    "ssoSessionIdleTimeout": 600,
+    "ssoSessionMaxLifespan": 36000,
+    "sslRequired": "external",
+    "registrationAllowed": false,
+    "privateKey": "MIIEowIBAAKCAQEAt1rAur+vH5qjX47SqYwoIJD3p5rsjuSPEdd5SHz8Fb8Mh2uFxONW5SAVwftbme6RbEhBuKhx2YV7W4BkhkxkAyrEl+XZ5CqePX3XpFlnqCMJsDF0tWAivSH2oK0LC26ch1rc3u4bNKMAGj9N33WGEunPKYqId/DtewUEXUoJ7tAJ5M7z4a7zj5XW7EZT3eWOLiBMyFeJqTSW9xA8kGRm+YMFAxVs5d5JyeuhHjP5ql+RSO0K7oxc1jAcJIib1oATs15sVmsvEPLEOhc8VwffbidsFqWKDS51UIXwblX7SqaX59c3HCbBrdHyTLeKP3qZzRssU80HBcAH+YqAuMKxpQIDAQABAoIBADUEUtIs9vBGgJLy80r/MeMox9N44on24L+h9HnXWfTXx0Go/4cMzWV3P5NVoQkDiJ0sz4QbgMAK7r5og6ipkgmwZiQd3EEzaYoSRzZIe8aMSxLdWgfQAnt5xJx1LMpjc3NX/KGha9BuiWsNfvDsRJZXcQVr/0XfLmvx6W8oJ3MbycIVKgoc86+cynYttk91y4M8E+e+RLyj2K5qPuirz3pU+COmxSfOPwzl3hgc+QLlAIw9J0bz2SIFprsCa1gS6adNAMa6I0UIkckuvrNi54cvtMhenJLOtcfVzvXEH6Dijv1VIU8mI+4hDHjdLm55FdkZiGuq7xlXcNv0F1u1bskCgYEA/du6/lQnFyxpGhS2aDWT7lUz97z1BLF1FM3GPjlLQz9G6EoUv0d8Om3aSH/UGQZLwXdDrwszfY39ldYuqpTpT4igZ5a7kx7GZL4148U+gC9y4WI1MXn3TABK//gr72Z80pn4KX7pSADCPkvCzeUm1GVgxN4Ik/vCGEnH8fZPk7sCgYEAuObAhkYGxPRra2UwzxVIbMupop3uQKAzSrBXgwrlem2F+W2b3IPU/Ck7zkjK6NROIAwNcR+Hc20RJYtDMCYG0MgdsJ3tdFkdqfM9nZmSwV/yxAl5Ymrp4W/Y7rz3CzPBzirvT0PsrO0ptrvY8XnPbij4/EL0UNR2B9lo3Zonih8CgYEAiT4M90i5pX6eB7qg7u/gXR51LP9cG8BwwuGIxsUk2mNQS28ZjlvwXopbU4zANxM/S4XV8sGEgeGM8j/MFO7Sv+vmhHpqSFx/96EZ810EsDp2ykDU7z24I7+YzI/3+MKYwyb4kj6JkiLO4O0GkVfMyVFRor1DN/YI9iaVUUvPs9cCgYBScppwhTMpia+IgOOlw2C7Gol2uKNvb7/PUxiCl05CLCosUaLJToOfOSew0SahcWGwyo8H3T5ByuV1b0azZpFtcX5DrfgfBEnE6XCVINCep5ERtwPITdIiMwRxWBN0jEykCOMS3j/f0BTkpZiT/HPxNBXqLlTQ4hwLXfdzsPRmkwKBgC+7uTUgQ94qLPPPA7mHFMWuKjHIDKoIHy+BgtHWrCo8irHO+Xs5HdkROwM/r9aFF5mtW7TM+7YcqHtiqjI4grOFzunU1/jN7UaSe9/IOSU/cFnPRpBi+ATylvfm9YPhHW48gcjzBvni75EbCxF+yc8fe7gXC+mnP2W5eLP30D79",
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt1rAur+vH5qjX47SqYwoIJD3p5rsjuSPEdd5SHz8Fb8Mh2uFxONW5SAVwftbme6RbEhBuKhx2YV7W4BkhkxkAyrEl+XZ5CqePX3XpFlnqCMJsDF0tWAivSH2oK0LC26ch1rc3u4bNKMAGj9N33WGEunPKYqId/DtewUEXUoJ7tAJ5M7z4a7zj5XW7EZT3eWOLiBMyFeJqTSW9xA8kGRm+YMFAxVs5d5JyeuhHjP5ql+RSO0K7oxc1jAcJIib1oATs15sVmsvEPLEOhc8VwffbidsFqWKDS51UIXwblX7SqaX59c3HCbBrdHyTLeKP3qZzRssU80HBcAH+YqAuMKxpQIDAQAB",
+    "users": [
+        {
+            "username": "admin",
+            "enabled": true,
+            "credentials": [
+                {
+                    "type": "password",
+                    "value": "password"
+                }
+            ],
+            "realmRoles": [
+                "admin",
+                "user"
+            ],
+            "clientRoles": {
+                "account": [
+                    "manage-account",
+                    "view-profile"
+                ]
+            }
+        },
+        {
+            "username": "user01",
+            "enabled": true,
+            "credentials": [
+                {
+                    "type": "password",
+                    "value": "password"
+                }
+            ],
+            "realmRoles": [
+                "user"
+            ],
+            "clientRoles": {
+                "account": [
+                    "manage-account",
+                    "view-profile"
+                ]
+            }
+        }
+    ],
+    "roles": {
+        "realm": [
+            {
+                "name": "admin"
+            },
+            {
+                "name": "user"
+            }
+        ]
+    },
+    "requiredCredentials": [
+        "password"
+    ],
+    "clients": [
+        {
+            "clientId": "api-service",
+            "enabled": true,
+            "bearerOnly": true
+        },
+        {
+            "clientId": "client-app",
+            "enabled": true,
+            "clientAuthenticatorType": "client-secret",
+            "secret": "password",
+            "redirectUris": [
+                "http://localhost:9000/*"
+            ]
+        }
+    ],
+    "keycloakVersion": "3.2.0.Final"
+}
